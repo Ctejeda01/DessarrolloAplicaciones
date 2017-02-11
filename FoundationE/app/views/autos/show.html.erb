@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Modelo:</strong>
+  <%= @auto.modelo %>
+</p>
+
+<p>
+  <strong>Marca:</strong>
+  <%= @auto.marca %>
+</p>
+
+<p>
+  <strong>Precio:</strong>
+  <%= @auto.precio %>
+</p>
+
+<p>
+  <strong>Fecha venta:</strong>
+  <%= @auto.fecha_venta %>
+</p>
+
+<%= link_to 'Edit', edit_auto_path(@auto), class:'button radius success' %> |
+<%= link_to 'Back', autos_path, class: 'button radius warning' %>

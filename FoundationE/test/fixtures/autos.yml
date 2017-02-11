@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  modelo: MyString
+  marca: MyString
+  precio: 1
+  fecha_venta: 2017-02-03
+
+two:
+  modelo: MyString
+  marca: MyString
+  precio: 1
+  fecha_venta: 2017-02-03
